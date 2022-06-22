@@ -1,7 +1,9 @@
 'use strict';
 
 window.addEventListener('DOMContentLoaded', () => {
+
     //Nav + Hamburger
+
     function navMenu() {
         function openMenu() {
             document.querySelector('.menu-trigger').classList.add('menu-trigger--active');
@@ -117,7 +119,7 @@ window.addEventListener('DOMContentLoaded', () => {
         callButtons.forEach(button => {
             button.addEventListener('click', (e) => {
                 e.preventDefault();
-                window.scroll(0, 2670);
+                window.scroll(0, document.querySelector('#consultingForm').offsetTop - 220);
             });
         });
     }
