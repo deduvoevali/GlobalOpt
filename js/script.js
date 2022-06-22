@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
         function changeSectionHeight() {
-            document.querySelector('.reviews').style.minHeight = document.querySelector('.slide').clientHeight + 220 + 'px';
+            document.querySelector('.reviews').style.minHeight = (document.querySelector('.slide').clientHeight * 1.93) + 'px';
         }
 
         function btnEvent(sign) {
@@ -185,7 +185,6 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         BindDataPosting(questionsForm, '.questions__button', 'http://localhost:3000/users');
         BindDataPosting(consultingForm, '.consulting__button', 'http://localhost:3000/users');
-
     }
 
     forms();
