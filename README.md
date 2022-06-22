@@ -1,6 +1,6 @@
 # project8-GlobalOpt
 
-Used technologies:
+# Used technologies:
 -Gulp
 -SCSS
 -Json-Server
