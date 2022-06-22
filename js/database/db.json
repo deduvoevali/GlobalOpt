@@ -1,0 +1,15 @@
+{
+    "users": [{
+            "id": 1,
+            "name": "Артем",
+            "phone": "+380633845732",
+            "email": "artemPetrushka@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Виталий",
+            "phone": "+380633845732",
+            "email": "vitalygnida@gmail.com"
+        }
+    ]
+}
